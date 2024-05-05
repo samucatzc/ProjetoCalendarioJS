@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="select-styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <div class="left-container">
+      <div id="book-court">
+        <h1>Book a Court</h1>
+        <p class="location">Location</p>
+        <div class="dropdown">
+          <input type="text" placeholder="Pick a Country" readonly>
+          <ul class="options">
+            <li class="option">Singapore</li>
+            <li class="option">Brazil</li>
+          </ul>
+        </div>
+        <p class="duration">Duration</p>
+        <div class="dropdown">
+          <input type="text" placeholder="Pick a Country" readonly>
+          <ul class="options">
+            <li class="option">30 minutes</li>
+            <li class="option">60 minutes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right-container">
+      <h2>Pick a date and time</h2>
+      <div class="calendar">
+        <div class="calendar-header">
+          <div class="month"></div>
+          <div class="prev-next">
+            <div class="btn prev-btn">
+              <img src="./img/Button - Previous month.svg" alt="previous">
+            </div>
+            <div class="btn next-btn">
+              <img src="./img/Button - Next month.svg" alt="previous">
+            </div>
+          </div>
+          <div class="btn today-btn"></div>
+        </div>
+        <div class="calendar-body">
+          <div class="calendar-week">
+            <p class="calendar-day">Mo</p>
+            <p class="calendar-day">Tu</p>
+            <p class="calendar-day">We</p>
+            <p class="calendar-day">Th</p>
+            <p class="calendar-day">Fr</p>
+            <p class="calendar-day">Sa</p>
+            <p class="calendar-day">Su</p>
+          </div>
+          <div class="day-month"></div>
+        </div>
+      </div>
+    </div>
+    <div class="terceira-parte">
+        <div class="script-2-data">
+          <script language="javascript" type="text/javascript"></script>
+        
+        </div>
+
+        <div class="btn-horarios">
+          <button> 14:00pm</button>
+        </div>
+        <br>
+        <div class="btn-horarios">
+          <button> 14:00pm</button>
+        </div>
+        <br>
+        <div class="btn-horarios">
+          <button> 15:00pm</button>
+        </div>
+        <br>
+        <div class="btn-horarios">
+          <button> 16:00pm</button>
+        </div>
+        <br>
+        <div class="btn-horarios">
+          <button> 17:00pm</button>
+        </div>
+    </div>
+  </main>
+  <script src="select-script.js"></script>
+  <script src="calendario.js"></script>
+</body>
+</html>

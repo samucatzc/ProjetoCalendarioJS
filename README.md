@@ -1,1 +1,1 @@
-Projeto Calendário feito com HTML/CSS e JS
+Projeto Calendário funcional feito com HTML/CSS e JS.
